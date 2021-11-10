@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+<body>
+    <form action="save.php" method="GET">
+        <label for="name">Name </label>
+        <input type="text" name="stu name " id="name" placeholder="Enter your name" required> <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="stu email " id="email" placeholder="Enter your Email" required> <br><br>
+        <label for="password">Password </label>
+        <input type="password" name="stu password " id="password" placeholder="Enter your password" required> <br><br>
+        <label for="phone">Phone </label>
+        <input type="number" name="stu phone " id="phone" placeholder="Enter your phone number" > <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" name="stu passport " id="passport" accept="image/" > <br><br>
+        <label for="year">Years</label>
+        <select name="stu year" id="year">
+            
+            <option value="">choose year</option>
+            <option value="first">first year</option>
+            <option value="second">second year</option>
+            <option value="third">third year</option>
+        
+        </select><br><br>
+        <label for="">Gender</label><br>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        <input type="radio" name="gender" id="Other"><label for="Other">Other</label>
+        <button type="submit">Save</button>
+    </form>
+    
+</body>
+</html>
